@@ -4,4 +4,15 @@ class Aluno
     @telefone = telefone
     @matricula = matricula
   end
+
+  # Get
+  def telefone
+    return @telefone
+  end
+
+  #Set
+  def telefone=(valor)
+    @telefone = valor
+  end
+
 end
